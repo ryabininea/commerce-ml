@@ -15,7 +15,7 @@ abstract class Price extends Node implements Composite
     static function getChildFields (): array
     {
         return [
-            'name' => 'ИдТипаЦены',
+            'name' => 'Наименование',
             'presentation' => 'Представление',
             'pricePerUnit' => 'ЦенаЗаЕдиницу',
             'currency' => 'Валюта',
