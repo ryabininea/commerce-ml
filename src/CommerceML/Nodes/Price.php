@@ -4,10 +4,10 @@
 namespace CommerceML\Nodes;
 
 
-use CommerceML\Node\Collection;
+use CommerceML\Node\Composite;
 use CommerceML\Node\Node;
 
-abstract class Price extends Node implements Collection
+abstract class Price extends Node implements Composite
 {
     /**
      * @inheritdoc
