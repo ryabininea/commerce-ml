@@ -38,6 +38,8 @@ abstract class Node implements Tag
         \CommerceML\Implementation\Document::class,
         \CommerceML\Implementation\Feature::class,
         \CommerceML\Implementation\Features::class,
+        \CommerceML\Implementation\Prices::class,
+        \CommerceML\Implementation\Price::class,
         \CommerceML\Implementation\Products::class,
         \CommerceML\Implementation\Product::class,
         \CommerceML\Implementation\Representative::class,
