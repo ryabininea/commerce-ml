@@ -23,7 +23,7 @@ class OfferList extends \CommerceML\Nodes\OfferList implements Implementation
 
     public function name(): string
     {
-        return $this-name;
+        return $this->name;
     }
 
     public function offers(): Offers
