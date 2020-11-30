@@ -30,7 +30,7 @@ abstract class Offer extends Node implements Composite
         return 'Предложение';
     }
 
-    abstract public function id(): string
+    abstract public function id(): string;
 
     abstract public function article(): string;
 
