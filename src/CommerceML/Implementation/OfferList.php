@@ -12,6 +12,8 @@ class OfferList extends \CommerceML\Nodes\OfferList implements Implementation
 {
     protected $id;
     protected $name;
+    protected $catalogId;
+    protected $metadataId;
     protected $offers;
     protected $updateOnly;
 
@@ -36,4 +38,13 @@ class OfferList extends \CommerceML\Nodes\OfferList implements Implementation
         return $this->updateOnly;
     }
 
+    public function catalogId(): string
+    {
+        return $this->catalogId;
+    }
+
+    public function metadataId(): string
+    {
+        return $this->metadataId;
+    }
 }

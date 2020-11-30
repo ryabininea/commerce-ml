@@ -27,6 +27,8 @@ abstract class OfferList extends Node implements Composite, AttributeContaining
         return [
             'id' => 'Ид',
             'name' => 'Наименование',
+            'catalogId' => 'ИдКаталога',
+            'metadataId' => 'ИдКлассификатора',
             'offers' => NULL,
 
         ];
@@ -37,6 +39,10 @@ abstract class OfferList extends Node implements Composite, AttributeContaining
     abstract public function id(): string;
 
     abstract public function name(): string;
+
+    abstract public function catalogId(): string;
+
+    abstract public function metadataId(): string;
 
     abstract public function offers(): Offers;
 }
