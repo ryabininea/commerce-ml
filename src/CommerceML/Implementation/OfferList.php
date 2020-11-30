@@ -13,6 +13,7 @@ class OfferList extends \CommerceML\Nodes\OfferList implements Implementation
     protected $id;
     protected $name;
     protected $offers;
+    protected $updateOnly;
 
     use DefaultImplementation;
 
@@ -30,4 +31,9 @@ class OfferList extends \CommerceML\Nodes\OfferList implements Implementation
     {
         return $this->offers;
     }
+    public function updateOnly(): string
+    {
+        return $this->updateOnly;
+    }
+
 }
